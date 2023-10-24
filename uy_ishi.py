@@ -1,4 +1,4 @@
-`class Person:
+class Person:
     def __init__(self, ism, familiya, ssn):
         self.ism = ism
         self.familiya = familiya
@@ -66,4 +66,4 @@ klinika.addDoctor(shifokor1)
 # Bemor va shifokorni klinikadan topib olish
 print(klinika.getPatient('123-45-6789').get_ism())  # Ali
 print(klinika.getDoctor('001').get_mutaxassislik())  # Terapevt
-`
+
